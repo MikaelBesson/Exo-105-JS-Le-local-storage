@@ -8,14 +8,17 @@ storage.setItem("theme" , "Black");
 
 function affichage (){
 
-    for(let i=0; i < localStorage.length; i++){
-        result.innerHTML += localStorage+" : "+localStorage+"<br>";
+    for(let i=0; i < window.localStorage.length; i++){
 
-        console.log(localStorage);
+        result.innerHTML += window.localStorage+" : "+window.localStorage+"<br>";
+
+        console.log(window.localStorage);
     }
 
 }
 affichage();
+
+
 
 
 /*
